@@ -1,54 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Open-sans';
+	src: url(../fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
 *{
 	margin: 0;
 	padding:0;
 	letter-spacing: 1px;
-    font-family: 'Open Sans' , sans-serif; 
+    font-family: sans-serif; 
 }
+
 body{
 	background: #f3f3f3;
 
 }
+
 header{
+	
+}
+
+header > div#header {
+	background: url(../imagens/fundo.png) no-repeat;
+	background-size: cover;
+	display: flex;
+	width: 100%;
+	position: fixed;
+	justify-content: space-around;
+	height: 150px;
+	box-shadow: 2px 1px 5px #656565;
+}
+
+#header > div#logo {
+}
+
+#header > div#logo > img {
+	width: 185px;
+	border-radius: 50%;
+	box-shadow: 1px 0px 5px #a4a4a4;
+}
+
+#header > div#menu {
+	display: grid	;
+}
+
+#header div#links ul{
+	display: flex;
+	padding: 5px 0px 5px 0px;
+}
+
+#header div#links > ul > li{
+	padding: 0px 27px 0px 0px;
+	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	height: 150px;
-	border-bottom: 2px solid #000;
-}
-
-header > div#logo > img {
-	width: 180px;
-}
-
-header > div#menu 
-.content{
-
-}
-header .links ul{
-	display: flex;
+    font-size: 90%;
+    color: #0099b2;
+	align-items: center;
 }
 
 .lupa{
 	position: relative;
 }
-header .links li{
-	padding-left: 0px;
-	list-style: none;
-	margin: 20 40px;
+
+#header .topo{
 	display: flex;
-	justify-content: space-between;
-    font-size: 90%;
-    color: #0099b2;
-}
-header .topo{
-    display: flex;
-    justify-content: space-between;
+	justify-content: center;
+	text-transform: uppercase;
 }
 
 .portal{
-	position: relative;
-	left: 9%;
+
 }
-header li a{
+
+#header li a{
     	text-decoration: none;
 }
 .laranja a, .laranja i{
@@ -58,7 +85,7 @@ header li a{
     	color: #0099b2;
 }
 
-header i{
+#header i{
     	margin: 3px;
 }
 .geladinho li{
@@ -102,13 +129,13 @@ header i{
 	background: white;
 	width: 640px;
 	border-radius: 10px 10px 0 0;
-	box-shadow: 1px 1px 1px 1px #00000030;
 	float: right;
 	align-items: center;
 }
 .categorias {
 	margin-top: -63px;
 }
+
 div#torta{
 	height: 1000px;
 	width: 100%;
