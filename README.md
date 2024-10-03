@@ -1,2 +1,2 @@
 # colegio
- site para nosso colégio
+ Site para nosso colégio.
