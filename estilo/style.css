@@ -18,6 +18,11 @@ body{
 
 }
 
+div#fixed {
+	width: 100%;
+	position: fixed;
+}
+
 header {
 	background: url(../imagens/fundo.png) no-repeat;
 	background-size: cover;
@@ -133,7 +138,6 @@ header i{
 
 div#barra {
 	background-color: #363fef;
-	padding: 10px;
 	color: #fff;
 }
 
@@ -146,7 +150,17 @@ div#barra > ul#geladinho {
 }
 
 div#barra > ul#geladinho > li {
-	padding: 10px;
+	padding: 20px;
+}
+
+div#barra > ul#geladinho > li > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+div#barra > ul#geladinho > li:hover {
+	background-color: #2ba3c7;
+	animation-duration: 1s;
 }
 
 div#torta{
