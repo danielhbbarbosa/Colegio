@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Notícias Colégio Joaquim</title>
-		<link rel="stylesheet" href="estilo/style.css">
-    	<script src="https://kit.fontawesome.com/e4c6e3687a.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Notícias Colégio Joaquim</title>
+	<link rel="stylesheet" href="estilo/style.css">
+	<script src="https://kit.fontawesome.com/e4c6e3687a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="fixed">
 		<header>
 			<div id="logo">
 				<img id='logo-img' src="imagens/logo.jpg">
@@ -15,19 +16,7 @@
 			<div id="menu">
 				<div class="topo">
 					<div id="links">
-						<ul class="portal">
-							<li class='azul'>
-								<i class="fa-brands fa-whatsapp"></i>
-								<a href="#"> 41 99990-6576</a>
-							</li>
-							<li class='laranja'>
-								<i class="fa-solid fa-user"></i>
-								<a href="#">Portal do Aluno</a>
-							</li>
-							<li class='laranja'>
-								<i class="fa-solid fa-user"></i>
-								<a href="#">Portal do Responsável</a>
-							</li>
+						<ul>
 							<li class='lupa'>
 								<a href="#">
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -45,157 +34,166 @@
 				</div>
 			</div>
 		</header>
-		<main class="main content">
-
-				<div class="noticias">
-				<ul>
-					<li>
-						<div class="tumb"> 
-							<img src="silva.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Joaquim Mafra
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
-					<li>
-						<div class="tumb"> 
-							<img src="joaquim.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Voluntários - Joaquim Da Silva Mafra
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
-					<li>
-						<div class="tumb"> 
-							<img src="foto3.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Quadra - Colégio
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
-                    <li>
-						<div class="tumb"> 
-							<img src="silva.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Joaquim Mafra
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
-					<li>
-						<div class="tumb"> 
-							<img src="joaquim.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Voluntários - Joaquim Da Silva Mafra
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
-					<li>
-						<div class="tumb"> 
-							<img src="foto3.jpg">
-						</div>
-						<div class="dados">
-							<span> 
-								GERAL
-							</span>
-							<h5> 
-								Quadra - Colégio
-							</h5>
-							<a> 
-								Saiba Mais 
-							</a>
-						</div>
-					</li>
+		<main>
+			<div id="barra">
+				<ul id='geladinho'>
+					<li> <a href="#">Início</a> </li>
+					<li> <a href="#">Sobre</a> </li>
+					<li> <a href="noticias.html">Notícias</a> </li>
+					<li> <a href="#">Oficinas</a> </li>
+					<li> <a href="#">Agendar visita</a> </li>
+					<li> <a href="#">Fale conosco</a> </li>
 				</ul>
-				</div>
-			</main>
-			<footer>  
-									
-					<form class="formulario"> 
-						<h1> DÚVIDA? <br> FALE COM A GENTE</h1>
-							<select>
-								<option> Escolha o Setor </option>
-								<option> Secretaria </option>
-								<option> Tesouraria </option>
-								<option> Marketing </option>
-								<option> Coordenação - Manhã </option>
-								<option> Coordenação - Tarde </option>
-								<option> Coordenação - Manhã </option>
-								<option> Coordenação - Tarde  </option>
-
-							</select>
-						<input type="text" placeholder="Nome">
-						<input type="text" placeholder="Telefone/Celular/Whatsapp">
-						<input type="text" placeholder="E-mail">
-						<input type="text" placeholder="Assunto">
-						<input type="text" placeholder="Mensagem">
-						<input class="botao" type="submit" value="Enviar">
-					</form>
-				<ul class="menu">
-							<div class="linha"> </div> 
-						<h2 class="fonte"> MENU </h2>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i> Início </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Educação Infantil </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Ensino Fundamental </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Ensino Médio </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Sobre </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Projetos e Oficinas </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Outras Escolas </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Fale Conosco </li>
-					<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Onde Estamos </li>
-				</ul>
-				<ul class="menu"> 
-							<div class="linha"> </div> 
-						<h3  class="fonte"> LINKS ÚTEIS </h3>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Responsável </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Professor </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Aluno </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Progamação </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Positivo ON </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Scalifra </li>
-					<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Política de Privacidade </li>
-				</ul>
-				<img src="logo.jpg" class="logo1">
-			</footer>
-	</body>
+			</div>
+	</div>
+	<div id="espaço"></div>
+		<div class="noticias">
+			<ul>
+				<li>
+					<div class="tumb"> 
+						<img src="silva.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Joaquim Mafra
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="tumb"> 
+						<img src="joaquim.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Voluntários - Joaquim Da Silva Mafra
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="tumb"> 
+						<img src="foto3.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Quadra - Colégio
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="tumb"> 
+						<img src="silva.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Joaquim Mafra
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="tumb"> 
+						<img src="joaquim.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Voluntários - Joaquim Da Silva Mafra
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="tumb"> 
+						<img src="foto3.jpg">
+					</div>
+					<div class="dados">
+						<span> 
+							GERAL
+						</span>
+						<h5> 
+							Quadra - Colégio
+						</h5>
+						<a> 
+							Saiba Mais 
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</main>
+	<footer>  
+		<form class="formulario"> 
+			<h1> DÚVIDA? <br> FALE COM A GENTE</h1>
+			<select>
+				<option> Escolha o Setor </option>
+				<option> Secretaria </option>
+				<option> Tesouraria </option>
+				<option> Marketing </option>
+				<option> Coordenação - Manhã </option>
+				<option> Coordenação - Tarde </option>
+				<option> Coordenação - Manhã </option>
+				<option> Coordenação - Tarde  </option>
+			</select>
+			<input type="text" placeholder="Nome">
+			<input type="text" placeholder="Telefone/Celular/Whatsapp">
+			<input type="text" placeholder="E-mail">
+			<input type="text" placeholder="Assunto">
+			<input type="text" placeholder="Mensagem">
+			<input class="botao" type="submit" value="Enviar">
+		</form>
+		<ul class="menu">
+			<div class="linha"> </div> 
+			<h2 class="fonte"> MENU </h2>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i> Início </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Educação Infantil </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Ensino Fundamental </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Ensino Médio </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Sobre </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Projetos e Oficinas </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Outras Escolas </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Fale Conosco </li>
+			<li> <i class="fa-solid fa-play" style="color: #0091ff;"></i>  Onde Estamos </li>
+		</ul>
+		<ul class="menu"> 
+			<div class="linha"> </div> 
+			<h3  class="fonte"> LINKS ÚTEIS </h3>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Responsável </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Professor </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Portal do Aluno </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Progamação </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Positivo ON </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Scalifra </li>
+			<li> <i class="fa-solid fa-play" style="color: #61b5f5;"></i> Política de Privacidade </li>
+		</ul>
+		<img src="imagens/logo.jpg" class="logo1">
+	</footer>
+</body>
 </html>
 

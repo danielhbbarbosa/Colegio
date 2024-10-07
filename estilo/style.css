@@ -51,32 +51,25 @@ header > div#menu {
 
 header div#links ul{
 	display: flex;
-	padding: 5px 0px 5px 0px;
+	padding: 20px 0px 5px 0px;
 }
 
 header div#links > ul > li{
 	padding: 0px 27px 0px 0px;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
-    font-size: 90%;
     color: #0099b2;
 	align-items: center;
 }
 
 .lupa{
-	position: relative;
 }
 
 header .topo{
 	display: flex;
-	justify-content: center;
-	text-transform: uppercase;
+	justify-content: flex-end;
 }
 
-.portal{
-
-}
 
 header li a{
     text-decoration: none;
@@ -135,7 +128,7 @@ header i{
 }
 
 .categorias {
-	margin-top: -63px;
+	margin-top: -53px;
 }
 
 div#barra {
@@ -163,6 +156,10 @@ div#barra > ul#geladinho > li > a {
 div#barra > ul#geladinho > li:hover {
 	background-color: #2ba3c7;
 	animation-duration: 1s;
+}
+
+div#espaço {
+	height: 30vh;
 }
 
 div#torta{
@@ -204,12 +201,9 @@ div#torta{
 	overflow: hidden;
 }
 .noticias span{		
-
 	background: #87cbe3 !important;
 	color: white;
 	padding: 7px 85px;
-	position: relative;
-	top: -10px;
 	border-radius: 5px;
 }
 .noticias h5{
@@ -279,15 +273,14 @@ footer li{
 	color: #0099b2;
 	font-weight: 700;
 	font-size: 19px;
-	margin: 19px 0;
-	padding-top: 46px;
+	margin: 0px 0px 19px 0px;
+	padding-top: 14px;
 }
 .linha{
 	width: 60px;
 	background: #02C028;
 	height: 5px;
-    position: relative;
-    top: 58px;
+    margin-top: 44px;
 }
 .botao{
 	background: #0099b2;
@@ -300,8 +293,7 @@ footer li{
 .logo1{
 	width: 200px;
 	height: 200px;
-	position: relative;
-	top: 142px;
+	margin-top: 233px;
 }
 .subli{
 	text-decoration: underline black;
