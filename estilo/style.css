@@ -23,6 +23,7 @@ body{
 
 }
 
+/*Div criada para fixar o header e o div#barra do main junto*/
 div#fixed {
 	width: 100%;
 	position: fixed;
@@ -33,7 +34,6 @@ header {
 	background-size: cover;
 	display: flex;
 	width: 100%;
-	/*position: fixed;*/
 	justify-content: space-around;
 	height: 150px;
 	box-shadow: 2px 1px 5px #656565;
@@ -46,7 +46,7 @@ header > div#logo > img {
 }
 
 header > div#menu {
-	display: grid	;
+	display: grid;
 }
 
 header div#links ul{
@@ -140,15 +140,15 @@ div#barra > ul#geladinho {
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	margin: 0px auto;
 
 }
 
 div#barra > ul#geladinho > li {
-	padding: 20px;
+	padding: 20px 0px;
 }
 
 div#barra > ul#geladinho > li > a {
+	padding: 20px;
 	color: #fff;
 	text-decoration: none;
 }
@@ -179,6 +179,7 @@ div#torta{
 	justify-content: center;
 
 }
+
 .noticias li img{
 	width: 100%;
 	background: white;
@@ -186,9 +187,11 @@ div#torta{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px 3px #00000030;
 }
+
 .noticias li{
 	width: 30%;
 	margin: 0.33px;
+	list-style: none;
 	background: white;
 	text-align: center;
 	border-radius: 10px;
@@ -196,16 +199,19 @@ div#torta{
 	height: 392px;
 	margin-right: 10px;
 }
+
 .noticias .tumb{
 	height: 247px;
 	overflow: hidden;
 }
+
 .noticias span{		
-	background: #87cbe3 !important;
+	background-color: #87cbe3;
 	color: white;
 	padding: 7px 85px;
 	border-radius: 5px;
 }
+
 .noticias h5{
 	margin-top: 30px;
 	margin-bottom: 40px;
@@ -213,15 +219,19 @@ div#torta{
 	font-size: 18px;
 }
 .noticias a{
-	background: #87cbe3 !important;
+	background-color: #87cbe3;
+	text-decoration: none;
 	padding: 8px 30px;
 	border-radius: 50px;
 	color: white;
 	font-size: 14px;
 }
-.noticias li{
-	list-style: none;
+
+.noticias a:hover {
+	background-color: #87cae3b8;
+	color: #323131c6;
 }
+
 .tumb{
 	border-radius: 10px;absolute
 }
@@ -231,6 +241,7 @@ footer{
 	display: flex;
 	margin-top: 200px !important;
 }
+
 footer h1{
 	font-size: 28px;
     color: #0099b2;
@@ -300,4 +311,9 @@ footer li{
 }
 .main{
 	width: 70%;
+}
+
+
+.news {
+	margin-bottom: 20px !important;
 }
